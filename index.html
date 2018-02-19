@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Buy my Stuff!</title>
+</head>
+
+
+<body>
+  <h1>David's Tea Shop</h1>
+<div>
+  <table>
+    <tr>
+        <th>Item</th>
+        <th>Price</th>
+        <th></th>
+    </tr>
+    <tr>
+      <td>Tea</td>
+      <td>$1.50</td>
+      <td><button type="button" onclick="addToCart(tea);">Add to Cart</button></td>
+    </tr>
+    <tr>
+      <td>Coffee</td>
+      <td>$1.99</td>
+      <td><button type="button" onclick="addToCart(coffee);">Add to Cart</button></td>
+    </tr>
+   
+  </table>
+</div>
+
+
+<!--Shopping Cart Starts Here-->
+<h3>Shopping Cart</h3>
+<div>
+    <table id="ShoppingCart">
+        <tr>
+            <th>Item</th>
+            <th>Price</th>
+            <th></th>
+        </tr>
+
+
+    </table>
+</div>
+
+
+ <script src="script.js"></script>             
+</body>
+</html>
